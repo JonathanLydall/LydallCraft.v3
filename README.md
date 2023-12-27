@@ -6,60 +6,69 @@ You will a valid need Minecraft Java Edition license. Java Edition is the name t
 
 If you don't own it already, you can buy it here:
 
-https://www.minecraft.net/en-us/store/minecraft-java-edition
+<https://www.minecraft.net/en-us/store/minecraft-java-edition>
 
 If you already have a license, or just bought one, you can download the launcher here:
 
-https://launcher.mojang.com/download/MinecraftInstaller.msi
+<https://launcher.mojang.com/download/MinecraftInstaller.msi>
 
 If the above URL stops working, check this page:
 
-https://www.minecraft.net/en-us/download
+<https://www.minecraft.net/en-us/download>
 
 ## Forge
 
-Download recommended Forge for MC 1.16.5:
+The forge installer requires Java to run it, an installer for the latest long-term supported version can be downloaded from [here](https://www.oracle.com/java/technologies/downloads/), once on the page select your OS and file, e.g. Windows and the x64 installer:
 
-https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.41/forge-1.16.5-36.2.41-installer.jar
+![JDK download site](images/jdk-download-site.png)
 
-*(Note to self, download listing is [here](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.16.5.html).)*
+Download the *latest* version of Minecraft Forge for MC 1.16.5:
 
-If you don't have Java 8 runtime on your computer or download from here and extract it to somewhere:
+<https://files.minecraftforge.net/net/minecraftforge/forge/index_1.16.5.html>
 
-https://mc.mordritch.com/downloads/v3/jre.8.0.51.16.zip
+Open the downloaded `.jar` file to run it.
 
-Double click the `forge-1.16.5-x.x.x-installer.jar` file and then browse to the location you extracted the above JRE
+Choose the *Install client* option:
+
+![image](images/minecraft-forge-installer-screen-01.png)
+
+The installer will then do a bunch of work and when done show a dialogue titled "Complete" with an "OK" button.
 
 ## In the Minecraft Launcher
 
-Ensure "Minecraft: Java Edition" is selected on the left and then click the "Installations" tab.
+If you had the Minecraft launcher open during installation of Minecraft Forge, you will need to close and re-open it for Minecraft Forge options to be visible.
 
-![](images/00-click-installations.png)
+- Ensure "Minecraft: Java Edition" is selected on the left and then click the "Installations" tab.
 
-Ensure "Modded" is checked at the top-right and then click on the "New installation" button.
+  ![Minecraft launcher installations tab location](images/00-click-installations.png)
 
-![](images/01-installations.png)
+- Ensure "Modded" is checked at the top-right and then click on the "New installation" button.
 
-Give it a name, for "Version" select `release 1.16.5-forge-36.2.01`, then click the "Browse" button.
+  ![Minecraft launcher modded and new installation locations in UI](images/01-installations.png)
 
-![](images/02-create-installation.png)
+- Give it a "Name", e.g. "LydallCraft v3".
+- For "Version" select `release 1.16.5-forge-<version>` (hint: you can type `forge` in the box to filter options.)
+- Click the "Browse" button.
 
-Ensure you have the the "Roaming" folder selected, then click the "Make New Folder" button.
+  ![Minecraft launcher create new installation screen](images/02-create-installation.png)
 
-![](images/03-select-roaming-folder.png)
+- Ensure you have the the "Roaming" folder selected, then click the "Make New Folder" button.
 
-Give the folder the name `.minecraft.lydallcraft.v3`, ensure you select the folder afterwards, then click the "OK" button.
+  ![image](images/03-select-roaming-folder.png)
 
-![](images/04-select-folder-after-naming.png)
+- Give the folder a name, e.g. `.minecraft.lydallcraft.v3`.
+- Ensure you select the folder before clicking the "OK" button.
 
-Click the "Folder" icon for the "LydallCraft v3" you created.
+  ![image](images/04-select-folder-after-naming.png)
 
-![](images/05-open-installation-folder.png)
+- Click the "Folder" icon for the "LydallCraft v3".
 
-Get the link to download the mod pack from one of us and extract the contents of the .zip file into the folder that opened.
+  ![image](images/05-open-installation-folder.png)
 
-![](images/06-extract-archive-contents.png)
+- Download the zip of our mod pack from <http://mc.mordritch.com/downloads/v3/.minecraft.lydallcraft.v3.2022022701.zip> and extract the contents into the installation folder we opened in the step above:
 
-And finally, you can press "Play".
+  ![image](images/06-extract-archive-contents.png)
 
-![](images/07-press-play.png)
+- You can now press "Play".
+
+  ![image](images/07-press-play.png)
