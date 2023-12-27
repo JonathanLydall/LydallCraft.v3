@@ -20,11 +20,15 @@ https://www.minecraft.net/en-us/download
 
 Download recommended Forge for MC 1.16.5:
 
-https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.0/forge-1.16.5-36.2.0-installer.jar
-
-Run the download and install the client.
+https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.41/forge-1.16.5-36.2.41-installer.jar
 
 *(Note to self, download listing is [here](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.16.5.html).)*
+
+If you don't have Java 8 runtime on your computer or download from here and extract it to somewhere:
+
+https://mc.mordritch.com/downloads/v3/jre.8.0.51.16.zip
+
+Double click the `forge-1.16.5-x.x.x-installer.jar` file and then browse to the location you extracted the above JRE
 
 ## In the Minecraft Launcher
 
@@ -59,22 +63,3 @@ Get the link to download the mod pack from one of us and extract the contents of
 And finally, you can press "Play".
 
 ![](images/07-press-play.png)
-
-## Optional components
-
-### Java 16 (optional)
-
-If you have Oracle Java installed, you should uninstall it, Minecraft itself stopped needing it to be installed some time ago.
-
-Download latest Java 16+ from MS:
-https://docs.microsoft.com/en-gb/java/openjdk/download
-
-Leave default options during install.
-
-#### Stop launcher blocking newer JDKs
-
-Delete:
-
-`C:\Program Files (x86)\Minecraft\game\JavaCheck.jar`
-
-See: https://bugs.mojang.com/browse/MCL-18306
