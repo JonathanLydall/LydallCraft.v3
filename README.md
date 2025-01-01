@@ -46,20 +46,21 @@ If you had the Minecraft launcher open during installation of Minecraft Forge, y
 
   ![Minecraft launcher modded and new installation locations in UI](images/01-installations.png)
 
-- Give it a "Name", e.g. "LydallCraft v3".
+- Give it a "Name", e.g. `LydallCraft v3`.
 - For "Version" select `release 1.16.5-forge-<version>` (hint: you can type `forge` in the box to filter options.)
 - Click the "Browse" button.
 
   ![Minecraft launcher create new installation screen](images/02-create-installation.png)
 
-- Ensure you have the the "Roaming" folder selected, then click the "Make New Folder" button.
+- Type `%appata%` into the folder path at the bottom and press enter:
 
-  ![image](images/03-select-roaming-folder.png)
+  ![alt text](images/03-browse-game-directory.png)
 
+- Press the `New Folder` button near the top left of the dialogue.
 - Give the folder a name, e.g. `.minecraft.lydallcraft.v3`.
-- Ensure you select the folder before clicking the "OK" button.
+- Select the folder and press the `Upload` button at the bottom right.
 
-  ![image](images/04-select-folder-after-naming.png)
+  ![image](images/04-press-upload-button.png)
 
 - Click the "Folder" icon for the "LydallCraft v3".
 
